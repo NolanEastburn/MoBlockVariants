@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV;
 
+import com.mbhabesNolieman108.MBV.init.ModItems;
 import com.mbhabesNolieman108.MBV.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
@@ -22,11 +23,16 @@ public class MoBlockVariants {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		System.out.println("Pre Init");
+		
+
+		ModItems.init();
+		ModItems.register();
 	}
 	
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
+		proxy.init();
 		System.out.println("Init");
 	}
 	
