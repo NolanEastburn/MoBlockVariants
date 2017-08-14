@@ -13,26 +13,21 @@ public class ModItems
 {
 	
 	public static Item chunk;
-	public static Item DBSword;
 	
 	public static void init( ) 
 	{
 		chunk = new ItemChunk();
-		DBSword = new ItemDBSword();
 		
 	}
 	
 	public static void register() 
 	{
 		GameRegistry.register(chunk);
-		GameRegistry.register(DBSword);
-		
 	}
 	
 	public static void registerRenders() 
 	{
 		registerRender(chunk);
-		registerRender(DBSword);
 	
 	}
 	

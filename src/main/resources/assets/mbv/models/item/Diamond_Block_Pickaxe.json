@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "MBV:items/DBSword"
+        "layer0": "items/Diamond_Block_Pickaxe"
     }
 }

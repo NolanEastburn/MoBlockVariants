@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "MBV:items/chunk"
+        "layer0": "mbv:items/chunk"
     }
 }

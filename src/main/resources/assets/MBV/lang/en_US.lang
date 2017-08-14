@@ -1,2 +1,3 @@
 item.chunk.name=Chunk
-item.DBSword.name=Diamond Block Sword
+item.tutorial_sword.name=Diamond Block Sword
+item.DBPickaxe.name=Diamond Block Pickaxe

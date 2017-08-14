@@ -9,6 +9,6 @@ public class ModCrafting
 {
 	public static void register()
 	{
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DBSword), " D ", " D ",  " S ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.tutorial_sword), " D ", " D ",  " S ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
 	}
 }
