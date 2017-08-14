@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV;
 
+import com.mbhabesNolieman108.MBV.init.ModCrafting;
 import com.mbhabesNolieman108.MBV.init.ModItems;
 import com.mbhabesNolieman108.MBV.proxy.CommonProxy;
 
@@ -11,7 +12,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = reference.MOD_ID, name = reference.NAME, version = reference.VERSION, acceptedMinecraftVersions = reference.ACCEPTED_VERSIONS )
+@Mod(modid = reference.MOD_ID, name = reference.NAME, version = reference.VERSION, acceptedMinecraftVersions = reference.ACCEPTED_VERSIONS)
 public class MoBlockVariants {
 	
 	@Instance 
@@ -24,7 +25,6 @@ public class MoBlockVariants {
 	{
 		System.out.println("Pre Init");
 		
-
 		ModItems.init();
 		ModItems.register();
 	}
@@ -34,6 +34,8 @@ public class MoBlockVariants {
 	{
 		proxy.init();
 		System.out.println("Init");
+		
+		ModCrafting.register();
 	}
 	
 	@EventHandler

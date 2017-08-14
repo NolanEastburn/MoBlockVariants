@@ -7,8 +7,8 @@ import net.minecraft.item.Item;
 public class ItemChunk extends Item {
 	
 	public ItemChunk() {
-		setUnlocalizedName(reference.TutorialItems.CHUNK.getUnlocalizedName());
-		setRegistryName(reference.TutorialItems.CHUNK.getRegistryName());
+		setUnlocalizedName(reference.MBVItems.CHUNK.getUnlocalizedName());
+		setRegistryName(reference.MBVItems.CHUNK.getRegistryName());
 	}
 
 }
