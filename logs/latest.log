@@ -1,0 +1,31 @@
+[22:31:39] [Client thread/INFO]: Setting user: Player757
+[22:31:42] [Client thread/INFO]: LWJGL Version: 2.9.4
+[22:31:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mo'Block Variants
+[22:31:46] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:31:46] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[22:31:46] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:31:46] [Thread-7/INFO]: OpenAL initialized.
+[22:31:46] [Sound Library Loader/INFO]: Sound engine started
+[22:31:48] [Client thread/INFO]: Created: 16x16 textures-atlas
+[22:31:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mo'Block Variants
+[22:31:50] [Client thread/INFO]: SoundSystem shutting down...
+[22:31:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[22:31:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:31:51] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[22:31:51] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:31:51] [Thread-9/INFO]: OpenAL initialized.
+[22:31:51] [Sound Library Loader/INFO]: Sound engine started
+[22:31:53] [Client thread/INFO]: Created: 512x512 textures-atlas
+[22:31:54] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[22:32:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mo'Block Variants
+[22:32:25] [Client thread/INFO]: SoundSystem shutting down...
+[22:32:25] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[22:32:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:32:25] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[22:32:25] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:32:25] [Thread-11/INFO]: OpenAL initialized.
+[22:32:26] [Sound Library Loader/INFO]: Sound engine started
+[22:32:27] [Client thread/INFO]: Created: 512x512 textures-atlas
+[22:33:40] [Client thread/INFO]: Stopping!
+[22:33:40] [Client thread/INFO]: SoundSystem shutting down...
+[22:33:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
