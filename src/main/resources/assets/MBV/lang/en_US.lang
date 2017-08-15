@@ -4,3 +4,5 @@ item.DBPickaxe.name=Diamond Block Pickaxe
 item.DBShovel.name=Diamond Block Shovel
 item.DBHoe.name=Diamond Block Hoe
 item.DBAxe.name=Diamond Block Axe
+
+tile.smoothOB.name=Smooth Obsidian

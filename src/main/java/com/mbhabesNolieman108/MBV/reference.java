@@ -41,4 +41,30 @@ public class reference
 	}
 	
 	}
+	
+	public static enum MBVBlocks
+	{
+		SMOOTH_OB("smoothOB", "BlockSmoothOB");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		MBVBlocks(String unlocalizedName, String registryName)
+		{
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() 
+		{
+			return unlocalizedName;
+		}
+	
+		public String getRegistryName() 
+		{
+			return registryName;
+		}
+	
+	}
+	
 }

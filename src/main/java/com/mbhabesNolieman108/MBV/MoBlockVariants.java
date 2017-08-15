@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV;
 
+import com.mbhabesNolieman108.MBV.init.ModBlocks;
 import com.mbhabesNolieman108.MBV.init.ModCrafting;
 import com.mbhabesNolieman108.MBV.init.ModItems;
 import com.mbhabesNolieman108.MBV.init.ToolInit;
@@ -31,6 +32,10 @@ public class MoBlockVariants
 		ToolInit.register();
 		ModItems.init();
 		ModItems.register();
+		
+		ModBlocks.init();
+		ModBlocks.register();
+		
 	}
 	
 	@EventHandler
