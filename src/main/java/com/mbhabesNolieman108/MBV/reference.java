@@ -14,7 +14,12 @@ public class reference
 	public static enum MBVItems
 	{
 		CHUNK("chunk", "ItemChunk"),
-		DB_SWORD("DBSword", "ItemDBSword");
+		DB_SWORD("DBSword", "ToolDBSword"),
+		DB_PICKAXE("DBPickaxe", "ToolDBPickaxe"),
+		DB_SHOVEL("DBShovel", "ToolDBShovel"),
+		DB_HOE("DBHoe", "ToolDBHoe"),
+		DB_AXE("DBAxe", "ToolDBAxe");
+		
 		
 		private String unlocalizedName;
 		private String registryName;

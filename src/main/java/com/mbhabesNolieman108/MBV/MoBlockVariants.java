@@ -14,7 +14,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = reference.MOD_ID, name = reference.NAME, version = reference.VERSION, acceptedMinecraftVersions = reference.ACCEPTED_VERSIONS)
-public class MoBlockVariants {
+public class MoBlockVariants 
+{
 	
 	@Instance 
 	public static MoBlockVariants instance;
@@ -25,7 +26,6 @@ public class MoBlockVariants {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		System.out.println("Pre Init");
-		
 		
 		ToolInit.init();
 		ToolInit.register();
