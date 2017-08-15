@@ -23,7 +23,7 @@ public class ToolInit
 	
 	public static final ToolMaterial DBSMat = EnumHelper.addToolMaterial("DBSMat", 3, 3122, 10.0F, 10.0F, 12);
 	public static final ToolMaterial DBToolMat = EnumHelper.addToolMaterial("DBPMat", 3, 3122, 12.0F, 6.0F, 12);
-	public static final ToolMaterial DBAMat = EnumHelper.addToolMaterial("DBAxe", 3, 3122, 10.0F, 14.0F, 12);
+	public static final ToolMaterial DBAMat = EnumHelper.addToolMaterial("DBAxe", 3, 3122, 10.0F, 19.0F, 12);
 	public static Item DBSword;
 	public static Item DBPickaxe;
 	public static Item DBShovel;

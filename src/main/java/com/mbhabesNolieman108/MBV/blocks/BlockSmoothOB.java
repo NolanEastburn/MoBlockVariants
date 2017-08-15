@@ -12,5 +12,6 @@ public class BlockSmoothOB extends Block
 		super(Material.ROCK);
 		setUnlocalizedName(reference.MBVBlocks.SMOOTH_OB.getUnlocalizedName());
 		setRegistryName(reference.MBVBlocks.SMOOTH_OB.getRegistryName());
+		setHardness(25.0F);
 	}
 }

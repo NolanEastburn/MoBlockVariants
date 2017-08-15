@@ -20,6 +20,8 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBShovel), " D ", " S ", " S ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBShovel), "  D", "  S", "  S", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBShovel), "D  ", "S  ", "S  ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothOB, 4), "OO ", "OO ", "   ", 'O', Blocks.OBSIDIAN);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothOB, 4), "   ", "OO ", "OO ", 'O', Blocks.OBSIDIAN);
 		
 	}
 }
