@@ -24,7 +24,8 @@ public class reference
 		O_SHOVEL("OShovel", "ToolOShovel"),
 		O_HOE("OHoe", "ToolOHoe"),
 		O_AXE("OAxe", "ToolOAxe"),
-		O_CHUNK("OChunk", "ItemOChunk");
+		O_CHUNK("OChunk", "ItemOChunk"),
+		O_Ingot("OIngot", "ItemOIngot");
 		
 		
 		private String unlocalizedName;

@@ -10,5 +10,6 @@ item.OShovel.name=Obsidian Shovel
 item.OHoe.name=Obsidian Hoe
 item.OAxe.name=Obsidian Axe
 item.OChunk.name=Obsidian Chunk
+item.OIngot.name=Obsidian Ingot
 
 tile.smoothOB.name=Smooth Obsidian

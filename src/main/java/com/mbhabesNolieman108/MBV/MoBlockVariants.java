@@ -44,7 +44,8 @@ public class MoBlockVariants
 		proxy.init();
 		System.out.println("Init");
 		
-		ModCrafting.register();
+		ModCrafting.registerCrafting();
+		ModCrafting.registerSmelting();
 	}
 	
 	@EventHandler

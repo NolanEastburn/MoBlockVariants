@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrafting 
 {
-	public static void register()
+	public static void registerCrafting()
 	{
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBSword), " D ", " D ",  " S ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBSword), "  D", "  D",  "  S", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
@@ -22,6 +22,24 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.DBShovel), "D  ", "S  ", "S  ", 'D', Blocks.DIAMOND_BLOCK, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothOB, 4), "OO ", "OO ", "   ", 'O', Blocks.OBSIDIAN);
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothOB, 4), "   ", "OO ", "OO ", 'O', Blocks.OBSIDIAN);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
 		
+		
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OSword), " O ", " O ",  " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OSword), "  O", "  O",  "  S", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OSword), "O  ", "O  ",  "S  ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OPickaxe), "OOO", " S ",  " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OHoe), "OO ", " S ",  " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OHoe), " OO", " S ",  " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OAxe), " OO", " SO", " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OAxe), "OO ", "OS ", " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OShovel), " O ", " S ", " S ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OShovel), "  O", "  S", "  S", 'O', ModItems.OIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ToolInit.OShovel), "O  ", "S  ", "S  ", 'O', ModItems.OIngot, 'S', Items.STICK);
+		
+	}
+	public static void registerSmelting() 
+	{
+		GameRegistry.addSmelting(ModItems.OChunk, new ItemStack(ModItems.OIngot), 10);		
 	}
 }
