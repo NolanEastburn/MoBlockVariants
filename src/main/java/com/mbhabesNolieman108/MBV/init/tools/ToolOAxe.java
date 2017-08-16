@@ -10,18 +10,17 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 
-public class ToolDBAxe extends ItemTool
+public class ToolOAxe extends ItemTool
 {
 	private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(new Block[] {Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN, Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
-    public ToolDBAxe(Item.ToolMaterial material)
+    public ToolOAxe(Item.ToolMaterial material)
     {
         super(material, EFFECTIVE_ON);
-        setUnlocalizedName(reference.MBVItems.DB_AXE.getUnlocalizedName());
-        setRegistryName(reference.MBVItems.DB_AXE.getRegistryName());
+        setUnlocalizedName(reference.MBVItems.O_AXE.getUnlocalizedName());
+        setRegistryName(reference.MBVItems.O_AXE.getRegistryName());
     }
 
     public float getStrVsBlock(ItemStack stack, IBlockState state)

@@ -18,7 +18,13 @@ public class reference
 		DB_PICKAXE("DBPickaxe", "ToolDBPickaxe"),
 		DB_SHOVEL("DBShovel", "ToolDBShovel"),
 		DB_HOE("DBHoe", "ToolDBHoe"),
-		DB_AXE("DBAxe", "ToolDBAxe");
+		DB_AXE("DBAxe", "ToolDBAxe"),
+		O_SWORD("OSword", "ToolOSword"),
+		O_PICKAXE("OPickaxe", "ToolOPickaxe"),
+		O_SHOVEL("OShovel", "ToolOShovel"),
+		O_HOE("OHoe", "ToolOHoe"),
+		O_AXE("OAxe", "ToolOAxe"),
+		O_CHUNK("OChunk", "ItemOChunk");
 		
 		
 		private String unlocalizedName;
