@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModArmor 
 {
-	public static final ArmorMaterial OBAMat = EnumHelper.addArmorMaterial("OBAMat", reference.MOD_ID + ":test", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial OBAMat = EnumHelper.addArmorMaterial("OBAMat", reference.MOD_ID + ":test", 33, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	public static Item OHelmet;
 	public static Item OChestplate;

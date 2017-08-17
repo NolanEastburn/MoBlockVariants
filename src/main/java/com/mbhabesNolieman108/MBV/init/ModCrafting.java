@@ -29,6 +29,17 @@ public class ModCrafting
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
+		//Armor
+		//Obsidian Armor
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OBoots), "O O","O O","   ", 'O',ModItems.OIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OBoots), "   ", "O O",  "O O", 'O',ModItems.OIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OHelmet), "   ", "OOO",  "O O", 'O',ModItems.OIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OHelmet), "OOO", "O O",  "   ", 'O',ModItems.OIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OLeggings), "OOO", "O O",  "O O", 'O',ModItems.OIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OChestplate), "O O", "OOO",  "OOO", 'O',ModItems.OIngot);
+		
+		
+		
 		
 	}
 	public static void registerSmelting() 

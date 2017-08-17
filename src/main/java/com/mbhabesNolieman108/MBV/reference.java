@@ -28,6 +28,7 @@ public class reference
 		O_Ingot("OIngot", "ItemOIngot");
 		
 		
+		
 		private String unlocalizedName;
 		private String registryName;
 		
