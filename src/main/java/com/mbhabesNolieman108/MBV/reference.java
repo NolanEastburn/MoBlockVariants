@@ -74,4 +74,32 @@ public class reference
 	
 	}
 	
+	public static enum MBVArmor
+	{
+		O_HELMET("OHelmet", "ArmorOHelmet"),
+		O_CHESTPLATE("OChestplate", "ArmorOChestplate"),
+		O_LEGGINGS("OLeggings", "ArmorOLeggings"),
+		O_BOOTS("OBoots", "ArmorOBoots");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		MBVArmor(String unlocalizedName, String registryName)
+		{
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() 
+		{
+			return unlocalizedName;
+		}
+	
+		public String getRegistryName() 
+		{
+			return registryName;
+		}
+	
+	}
+	
 }

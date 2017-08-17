@@ -1,8 +1,9 @@
 package com.mbhabesNolieman108.MBV.proxy;
 
+import com.mbhabesNolieman108.MBV.init.ModArmor;
 import com.mbhabesNolieman108.MBV.init.ModBlocks;
 import com.mbhabesNolieman108.MBV.init.ModItems;
-import com.mbhabesNolieman108.MBV.init.ToolInit;
+import com.mbhabesNolieman108.MBV.init.ModTools;
 
 public class ClientProxy implements CommonProxy 
 {
@@ -10,7 +11,8 @@ public class ClientProxy implements CommonProxy
 	public void init() 
 	{
 		ModItems.registerRenders();
-		ToolInit.registerRenders();
+		ModTools.registerRenders();
 		ModBlocks.registerRenders();
+		ModArmor.registerRenders();
 	}
 }

@@ -3,7 +3,7 @@ package com.mbhabesNolieman108.MBV;
 import com.mbhabesNolieman108.MBV.init.ModBlocks;
 import com.mbhabesNolieman108.MBV.init.ModCrafting;
 import com.mbhabesNolieman108.MBV.init.ModItems;
-import com.mbhabesNolieman108.MBV.init.ToolInit;
+import com.mbhabesNolieman108.MBV.init.ModTools;
 import com.mbhabesNolieman108.MBV.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
@@ -28,8 +28,8 @@ public class MoBlockVariants
 	{
 		System.out.println("Pre Init");
 		
-		ToolInit.init();
-		ToolInit.register();
+		ModTools.init();
+		ModTools.register();
 		ModItems.init();
 		ModItems.register();
 		

@@ -12,4 +12,9 @@ item.OAxe.name=Obsidian Axe
 item.OChunk.name=Obsidian Chunk
 item.OIngot.name=Obsidian Ingot
 
+item.OHelmet.name=Obsidian Helmet
+item.OChestplate.name=Obsidian Chestplate
+item.OLeggings.name=Obsidian Leggings
+item.OBoots.name=Obsidian Boots
+
 tile.smoothOB.name=Smooth Obsidian

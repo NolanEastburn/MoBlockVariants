@@ -23,7 +23,7 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class ToolInit 
+public class ModTools 
 {
 	
 	public static final ToolMaterial DBSMat = EnumHelper.addToolMaterial("DBSMat", 3, 3122, 10.0F, 10.0F, 12);
