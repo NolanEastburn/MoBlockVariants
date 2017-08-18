@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV.init.tools;
 
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.item.ItemHoe;
@@ -11,5 +12,6 @@ public class ToolOHoe extends ItemHoe
 		super(material);
 		setUnlocalizedName(reference.MBVItems.O_HOE.getUnlocalizedName());
 		setRegistryName(reference.MBVItems.O_HOE.getRegistryName());
+		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 	}
 }

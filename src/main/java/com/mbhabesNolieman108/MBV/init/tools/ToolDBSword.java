@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV.init.tools;
 
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ public class ToolDBSword extends ItemSword{
 		super(material);
 		setUnlocalizedName(reference.MBVItems.DB_SWORD.getUnlocalizedName());
 		setRegistryName(reference.MBVItems.DB_SWORD.getRegistryName());
+		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 	}
 	
 }

@@ -7,6 +7,7 @@ import com.mbhabesNolieman108.MBV.init.ModItems;
 import com.mbhabesNolieman108.MBV.init.ModTools;
 import com.mbhabesNolieman108.MBV.proxy.CommonProxy;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -24,6 +25,9 @@ public class MoBlockVariants
 	
 	@SidedProxy(clientSide = reference.CLIENT_PROXY_CLASS, serverSide = reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
+	
+	public static final CreativeTabs CREATIVE_TAB = new MBVTab();
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{

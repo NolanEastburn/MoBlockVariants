@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV.init.tools;
 
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.item.ItemSpade;
@@ -11,5 +12,6 @@ public class ToolDBShovel extends ItemSpade
 		super(material);
 		setUnlocalizedName(reference.MBVItems.DB_SHOVEL.getUnlocalizedName());
 		setRegistryName(reference.MBVItems.DB_SHOVEL.getRegistryName());
+		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 	}
 }

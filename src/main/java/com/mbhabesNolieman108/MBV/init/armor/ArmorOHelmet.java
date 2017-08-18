@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV.init.armor;
 
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -13,6 +14,7 @@ public class ArmorOHelmet extends ItemArmor
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		setUnlocalizedName(reference.MBVArmor.O_HELMET.getUnlocalizedName());
 		setRegistryName(reference.MBVArmor.O_HELMET.getRegistryName());
+		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 	}
 
 }

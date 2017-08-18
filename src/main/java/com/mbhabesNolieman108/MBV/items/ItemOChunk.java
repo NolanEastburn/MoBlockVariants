@@ -1,5 +1,6 @@
 package com.mbhabesNolieman108.MBV.items;
 
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.item.Item;
@@ -10,5 +11,6 @@ public class ItemOChunk extends Item
 	{
 		setUnlocalizedName(reference.MBVItems.O_CHUNK.getUnlocalizedName());
 		setRegistryName(reference.MBVItems.O_CHUNK.getRegistryName());
+		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 	}
 }

@@ -11,5 +11,6 @@ public class ItemChunk extends Item
 	{
 		setUnlocalizedName(reference.MBVItems.CHUNK.getUnlocalizedName());
 		setRegistryName(reference.MBVItems.CHUNK.getRegistryName());
+		
 	}
 }

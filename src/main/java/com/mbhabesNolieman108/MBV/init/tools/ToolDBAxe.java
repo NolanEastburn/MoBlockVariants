@@ -3,6 +3,7 @@ package com.mbhabesNolieman108.MBV.init.tools;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
+import com.mbhabesNolieman108.MBV.MoBlockVariants;
 import com.mbhabesNolieman108.MBV.reference;
 
 import net.minecraft.block.Block;
@@ -22,6 +23,7 @@ public class ToolDBAxe extends ItemTool
         super(material, EFFECTIVE_ON);
         setUnlocalizedName(reference.MBVItems.DB_AXE.getUnlocalizedName());
         setRegistryName(reference.MBVItems.DB_AXE.getRegistryName());
+        setCreativeTab(MoBlockVariants.CREATIVE_TAB);
     }
 
     public float getStrVsBlock(ItemStack stack, IBlockState state)
