@@ -18,5 +18,6 @@ item.OLeggings.name=Obsidian Leggings
 item.OBoots.name=Obsidian Boots
 
 tile.smoothOB.name=Smooth Obsidian
+tile.smoothGlowstone.name=Smooth Glowstone
 
 itemGroup.tabMBV=Mo Block Variants
