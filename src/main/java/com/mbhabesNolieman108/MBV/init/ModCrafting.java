@@ -29,6 +29,8 @@ public class ModCrafting
 		//SmoothGlowstone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothGlowstone, 4), "GG ", "GG ", "   ", 'G', Blocks.GLOWSTONE);
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothGlowstone, 4), "   ", "GG ", "GG ", 'G', Blocks.GLOWSTONE);
+		//Lantern
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.lantern), "III", "GTG", "III", 'I', Items.IRON_INGOT, 'T', Blocks.TORCH, 'G', Blocks.GLASS);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));

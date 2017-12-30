@@ -19,5 +19,6 @@ item.OBoots.name=Obsidian Boots
 
 tile.smoothOB.name=Smooth Obsidian
 tile.smoothGlowstone.name=Smooth Glowstone
+tile.lantern.name=Lantern
 
 itemGroup.tabMBV=Mo Block Variants

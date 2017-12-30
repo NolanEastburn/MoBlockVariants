@@ -53,7 +53,8 @@ public class reference
 	public static enum MBVBlocks
 	{
 		SMOOTH_OB("smoothOB", "BlockSmoothOB"),
-		SMOOTH_GLOWSTONE("smoothGlowstone", "BlockSmoothGlowstone");
+		SMOOTH_GLOWSTONE("smoothGlowstone", "BlockSmoothGlowstone"),
+		LANTERN("lantern", "BlockLantern");
 		
 		private String unlocalizedName;
 		private String registryName;

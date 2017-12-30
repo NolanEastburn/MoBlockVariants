@@ -7,18 +7,17 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class BlockSmoothGlowstone extends Block 
+public class BlockLantern extends Block
 {
-	public BlockSmoothGlowstone()
+	public BlockLantern()
 	{
 		super(Material.GLASS);
-		setUnlocalizedName(reference.MBVBlocks.SMOOTH_GLOWSTONE.getUnlocalizedName());
-		setRegistryName(reference.MBVBlocks.SMOOTH_GLOWSTONE.getRegistryName());
+		setUnlocalizedName(reference.MBVBlocks.LANTERN.getUnlocalizedName());
+		setRegistryName(reference.MBVBlocks.LANTERN.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
-		setLightLevel(1F);
-		setHardness(0.3F);
-		setSoundType(SoundType.GLASS);
-		
+		setHardness(0.5F);
+		setLightLevel(0.9F);
+		setSoundType(SoundType.WOOD);
 	}
-			
+	
 }
