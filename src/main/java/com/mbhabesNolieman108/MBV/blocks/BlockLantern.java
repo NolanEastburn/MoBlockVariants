@@ -6,6 +6,8 @@ import com.mbhabesNolieman108.MBV.reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.BlockRenderLayer;
 
 public class BlockLantern extends Block
 {
@@ -17,7 +19,18 @@ public class BlockLantern extends Block
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		setHardness(0.5F);
 		setLightLevel(0.9F);
-		setSoundType(SoundType.WOOD);
+		setSoundType(SoundType.METAL);
 	}
-	
+     @Override
+    public boolean isFullCube(IBlockState state) {
+    	return false;    	
+    }
+     @Override
+    public boolean isOpaqueCube(IBlockState state) {
+    	return false;
+    }
+     @Override
+    public BlockRenderLayer getBlockLayer() {
+    	return BlockRenderLayer.TRANSLUCENT;
+    }
 }
