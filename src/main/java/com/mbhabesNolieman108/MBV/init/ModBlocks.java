@@ -2,6 +2,8 @@ package com.mbhabesNolieman108.MBV.init;
 
 
 import com.mbhabesNolieman108.MBV.blocks.BlockLantern;
+import com.mbhabesNolieman108.MBV.blocks.BlockNRCobble;
+import com.mbhabesNolieman108.MBV.blocks.BlockNRStone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothGlowstone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothOB;
 
@@ -17,12 +19,16 @@ public class ModBlocks
 	public static Block smoothOB;
 	public static Block smoothGlowstone;
 	public static Block lantern;
+	public static Block NRCobble;
+	public static Block NRStone;
 	
 	public static void init()
 	{
 		smoothOB = new BlockSmoothOB();
 		smoothGlowstone = new BlockSmoothGlowstone();
 		lantern = new BlockLantern();
+		NRCobble = new BlockNRCobble();
+		NRStone = new BlockNRStone();
 	}
 	
 	public static void register() 
@@ -30,6 +36,8 @@ public class ModBlocks
 		registerBlock(smoothOB);
 		registerBlock(smoothGlowstone);
 		registerBlock(lantern);
+		registerBlock(NRCobble);
+		registerBlock(NRStone);
 	}
 	
 	public static void registerBlock(Block block) 
@@ -45,6 +53,8 @@ public class ModBlocks
 		registerRender(smoothOB);
 		registerRender(smoothGlowstone);
 		registerRender(lantern);
+		registerRender(NRCobble);
+		registerRender(NRStone);
 	}
 	
 	private static void registerRender(Block block) 

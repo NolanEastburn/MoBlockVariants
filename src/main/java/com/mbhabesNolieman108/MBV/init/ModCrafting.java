@@ -31,6 +31,8 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothGlowstone, 4), "   ", "GG ", "GG ", 'G', Blocks.GLOWSTONE);
 		//Lantern
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.lantern), "III", "GTG", "III", 'I', Items.IRON_INGOT, 'T', Blocks.TORCH, 'G', Blocks.GLASS);
+		//NetherCobbelstone
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.NRCobble), "CCC", "CNC", "CCC", 'C', Blocks.COBBLESTONE, 'N', Blocks.NETHERRACK);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
@@ -49,6 +51,7 @@ public class ModCrafting
 	}
 	public static void registerSmelting() 
 	{
-		GameRegistry.addSmelting(ModItems.OChunk, new ItemStack(ModItems.OIngot), 10);		
+		GameRegistry.addSmelting(ModItems.OChunk, new ItemStack(ModItems.OIngot), 10);
+		GameRegistry.addSmelting(ModBlocks.NRCobble, new ItemStack(ModBlocks.NRStone), 10);
 	}
 }

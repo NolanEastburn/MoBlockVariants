@@ -7,17 +7,16 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class BlockSmoothOB extends Block 
+public class BlockNRStone extends Block
 {
-	public BlockSmoothOB()
+	public BlockNRStone()
 	{
 		super(Material.ROCK);
-		setUnlocalizedName(reference.MBVBlocks.SMOOTH_OB.getUnlocalizedName());
-		setRegistryName(reference.MBVBlocks.SMOOTH_OB.getRegistryName());
+		setUnlocalizedName(reference.MBVBlocks.NR_STONE.getUnlocalizedName());
+		setRegistryName(reference.MBVBlocks.NR_STONE.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
-		setHardness(25.0F);
+		setHardness(0.8F);
 		setSoundType(SoundType.STONE);
-		setHarvestLevel("pickaxe", 2);
-		
+		setHarvestLevel("pickaxe", 0);
 	}
 }

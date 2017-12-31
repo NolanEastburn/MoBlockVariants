@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "mbv:blocks/BlockLantern"
+        "all": "mbv:blocks/nrstone"
     }
 }
