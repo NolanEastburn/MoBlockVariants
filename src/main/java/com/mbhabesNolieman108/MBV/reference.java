@@ -56,7 +56,8 @@ public class reference
 		SMOOTH_GLOWSTONE("smoothGlowstone", "BlockSmoothGlowstone"),
 		LANTERN("lantern", "BlockLantern"),
 		NR_COBBLE("NRCobble", "BlockNRCobble"),
-		NR_STONE("NRStone", "BlockNRStone");
+		NR_STONE("NRStone", "BlockNRStone"),
+		SOULSTONE("soulStone", "BlockSoulStone");
 		
 		private String unlocalizedName;
 		private String registryName;

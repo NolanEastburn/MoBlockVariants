@@ -33,6 +33,9 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.lantern), "III", "GTG", "III", 'I', Items.IRON_INGOT, 'T', Blocks.TORCH, 'G', Blocks.GLASS);
 		//NetherCobblestone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.NRCobble, 8), "CCC", "CNC", "CCC", 'C', Blocks.COBBLESTONE, 'N', Blocks.NETHERRACK);
+		//SoulStone
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStone), "SS ", "SS ", "   ", 'S', Blocks.SOUL_SAND);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStone), "   ", "SS ", "S  ", 'S', Blocks.SOUL_SAND);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));

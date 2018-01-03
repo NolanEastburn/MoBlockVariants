@@ -22,5 +22,6 @@ tile.smoothGlowstone.name=Smooth Glowstone
 tile.lantern.name=Lantern
 tile.NRCobble.name=Nether Cobblestone
 tile.NRStone.name=Nether Stone
+tile.soulStone.name=Soul Stone
 
 itemGroup.tabMBV=Mo Block Variants

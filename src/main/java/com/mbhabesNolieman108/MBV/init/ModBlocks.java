@@ -6,6 +6,7 @@ import com.mbhabesNolieman108.MBV.blocks.BlockNRCobble;
 import com.mbhabesNolieman108.MBV.blocks.BlockNRStone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothGlowstone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothOB;
+import com.mbhabesNolieman108.MBV.blocks.BlockSoulStone;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -21,6 +22,7 @@ public class ModBlocks
 	public static Block lantern;
 	public static Block NRCobble;
 	public static Block NRStone;
+	public static Block soulStone;
 	
 	public static void init()
 	{
@@ -29,6 +31,7 @@ public class ModBlocks
 		lantern = new BlockLantern();
 		NRCobble = new BlockNRCobble();
 		NRStone = new BlockNRStone();
+		soulStone = new BlockSoulStone();
 	}
 	
 	public static void register() 
@@ -38,6 +41,7 @@ public class ModBlocks
 		registerBlock(lantern);
 		registerBlock(NRCobble);
 		registerBlock(NRStone);
+		registerBlock(soulStone);
 	}
 	
 	public static void registerBlock(Block block) 
@@ -55,6 +59,7 @@ public class ModBlocks
 		registerRender(lantern);
 		registerRender(NRCobble);
 		registerRender(NRStone);
+		registerRender(soulStone);
 	}
 	
 	private static void registerRender(Block block) 
