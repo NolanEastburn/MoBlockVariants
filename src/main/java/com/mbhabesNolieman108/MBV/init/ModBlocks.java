@@ -26,7 +26,7 @@ public class ModBlocks
 	public static Block NRCobble;
 	public static Block NRStone;
 	public static Block soulStone;
-	//public static BlockSoulStairs soulStairs;
+	public static BlockSoulStairs soulStairs;
 	public static Block smoothSoulStone;
 	
 	public static void init()
@@ -37,7 +37,7 @@ public class ModBlocks
 		NRCobble = new BlockNRCobble();
 		NRStone = new BlockNRStone();
 		soulStone = new BlockSoulStone();
-		//soulStairs = new BlockSoulStairs(soulStairs.getDefaultState());
+		soulStairs = new BlockSoulStairs(soulStairs.getDefaultState());
 		smoothSoulStone = new BlockSmoothSoulStone();
 	}
 	
@@ -49,7 +49,7 @@ public class ModBlocks
 		registerBlock(NRCobble);
 		registerBlock(NRStone);
 		registerBlock(soulStone);
-		//registerBlock(soulStairs);
+		registerBlock(soulStairs);
 		registerBlock(smoothSoulStone);
 	}
 	
@@ -69,7 +69,7 @@ public class ModBlocks
 		registerRender(NRCobble);
 		registerRender(NRStone);
 		registerRender(soulStone);
-		//registerRender(soulStairs);
+		registerRender(soulStairs);
 		registerRender(smoothSoulStone);
 	}
 	

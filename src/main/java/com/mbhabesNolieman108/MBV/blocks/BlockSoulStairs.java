@@ -21,5 +21,6 @@ public class BlockSoulStairs extends BlockStairs
 		this.setHarvestLevel("pickaxe", 0);
 		this.setSoundType(SoundType.STONE);
 		this.useNeighborBrightness = true;
+		
 	}
 }
