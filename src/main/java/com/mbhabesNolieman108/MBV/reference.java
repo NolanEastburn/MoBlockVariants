@@ -57,7 +57,9 @@ public class reference
 		LANTERN("lantern", "BlockLantern"),
 		NR_COBBLE("NRCobble", "BlockNRCobble"),
 		NR_STONE("NRStone", "BlockNRStone"),
-		SOULSTONE("soulStone", "BlockSoulStone");
+		SOUL_STONE("soulStone", "BlockSoulStone"),
+		SOUL_STAIRS("soulStairs", "BlockSoulStairs"),
+		SMOOTH_SOUL_STONE("smoothSoulStone", "BlockSmoothSoulStone");
 		
 		private String unlocalizedName;
 		private String registryName;

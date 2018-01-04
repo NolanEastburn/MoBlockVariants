@@ -6,9 +6,12 @@ import com.mbhabesNolieman108.MBV.blocks.BlockNRCobble;
 import com.mbhabesNolieman108.MBV.blocks.BlockNRStone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothGlowstone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothOB;
+import com.mbhabesNolieman108.MBV.blocks.BlockSmoothSoulStone;
+import com.mbhabesNolieman108.MBV.blocks.BlockSoulStairs;
 import com.mbhabesNolieman108.MBV.blocks.BlockSoulStone;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockStairs;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -23,6 +26,8 @@ public class ModBlocks
 	public static Block NRCobble;
 	public static Block NRStone;
 	public static Block soulStone;
+	public static BlockSoulStairs soulStairs;
+	public static Block smoothSoulStone;
 	
 	public static void init()
 	{
@@ -32,6 +37,8 @@ public class ModBlocks
 		NRCobble = new BlockNRCobble();
 		NRStone = new BlockNRStone();
 		soulStone = new BlockSoulStone();
+		soulStairs = new BlockSoulStairs(soulStairs.getDefaultState());
+		smoothSoulStone = new BlockSmoothSoulStone();
 	}
 	
 	public static void register() 
@@ -42,6 +49,8 @@ public class ModBlocks
 		registerBlock(NRCobble);
 		registerBlock(NRStone);
 		registerBlock(soulStone);
+		registerBlock(soulStairs);
+		registerBlock(smoothSoulStone);
 	}
 	
 	public static void registerBlock(Block block) 
@@ -60,6 +69,8 @@ public class ModBlocks
 		registerRender(NRCobble);
 		registerRender(NRStone);
 		registerRender(soulStone);
+		registerRender(soulStairs);
+		registerRender(smoothSoulStone);
 	}
 	
 	private static void registerRender(Block block) 
