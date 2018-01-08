@@ -25,7 +25,8 @@ public class reference
 		O_HOE("OHoe", "ToolOHoe"),
 		O_AXE("OAxe", "ToolOAxe"),
 		O_CHUNK("OChunk", "ItemOChunk"),
-		O_Ingot("OIngot", "ItemOIngot");
+		O_Ingot("OIngot", "ItemOIngot"),
+		SOUL_BRICK("soulBrick", "ItemSoulBrick");
 		
 		
 		
