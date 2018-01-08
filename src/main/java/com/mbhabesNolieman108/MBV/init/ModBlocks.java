@@ -37,7 +37,7 @@ public class ModBlocks
 		NRCobble = new BlockNRCobble();
 		NRStone = new BlockNRStone();
 		soulStone = new BlockSoulStone();
-		soulStairs = new BlockSoulStairs(soulStairs.getDefaultState());
+		soulStairs = new BlockSoulStairs(soulStone.getDefaultState());
 		smoothSoulStone = new BlockSmoothSoulStone();
 	}
 	
