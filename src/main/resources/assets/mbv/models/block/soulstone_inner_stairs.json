@@ -1,8 +1,8 @@
 {
     "parent": "block/inner_stairs",
     "textures": {
-        "bottom": "blocks/soulstone",
-        "top": "blocks/soulstone",
-        "side": "blocks/soulstone"
+        "bottom": "mbv:blocks/soulstone",
+        "top": "mbv:blocks/soulstone",
+        "side": "mbv:blocks/soulstone"
     }
 }
