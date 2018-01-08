@@ -34,14 +34,14 @@ public class ModCrafting
 		//NetherCobblestone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.NRCobble, 8), "CCC", "CNC", "CCC", 'C', Blocks.COBBLESTONE, 'N', Blocks.NETHERRACK);
 		//SoulStone
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStone), "SS ", "SS ", "   ", 'S', Blocks.SOUL_SAND);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStone), "   ", "SS ", "S  ", 'S', Blocks.SOUL_SAND);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBricks), "SS ", "SS ", "   ", 'S', ModItems.soulBrick);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBricks), "   ", "SS ", "S  ", 'S', ModItems.soulBrick);
 		//SoulStoneStairs
-		//GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStairs, 4), "S  ", "SS", "SSS", 'S', ModBlocks.soulStone);
-	    //GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulStairs, 4), "  S", " SS",  "SSS", 'S', ModBlocks.soulStone);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBrickStairs, 4), "S  ", "SS ", "SSS", 'S', ModBlocks.soulBricks);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBrickStairs, 4), "  S", "  SS",  "SSS", 'S', ModBlocks.soulBricks);
 		//SmoothSoulStone
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulStone, 4), "SS ", "SS ", "   ", 'S', ModBlocks.soulStone);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulStone, 4), "   ", "SS ", "S  ", 'S', ModBlocks.soulStone);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "SS ", "SS ", "   ", 'S', ModBlocks.soulSandstone);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "   ", "SS ", "S  ", 'S', ModBlocks.soulSandstone);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
@@ -64,5 +64,7 @@ public class ModCrafting
 		GameRegistry.addSmelting(ModItems.OChunk, new ItemStack(ModItems.OIngot), 10);
 		//NetherCobblestone
 		GameRegistry.addSmelting(ModBlocks.NRCobble, new ItemStack(ModBlocks.NRStone), 10);
+		//Soul brick
+		GameRegistry.addSmelting(Blocks.SOUL_SAND, new ItemStack(ModItems.soulBrick), 10);
 	}
 }

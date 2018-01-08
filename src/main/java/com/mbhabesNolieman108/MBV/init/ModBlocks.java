@@ -6,9 +6,10 @@ import com.mbhabesNolieman108.MBV.blocks.BlockNRCobble;
 import com.mbhabesNolieman108.MBV.blocks.BlockNRStone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothGlowstone;
 import com.mbhabesNolieman108.MBV.blocks.BlockSmoothOB;
-import com.mbhabesNolieman108.MBV.blocks.BlockSmoothSoulStone;
-import com.mbhabesNolieman108.MBV.blocks.BlockSoulStairs;
-import com.mbhabesNolieman108.MBV.blocks.BlockSoulStone;
+import com.mbhabesNolieman108.MBV.blocks.BlockSmoothSoulSandstone;
+import com.mbhabesNolieman108.MBV.blocks.BlockSoulBrickStairs;
+import com.mbhabesNolieman108.MBV.blocks.BlockSoulBricks;
+import com.mbhabesNolieman108.MBV.blocks.BlockSoulSandstone;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockStairs;
@@ -25,9 +26,10 @@ public class ModBlocks
 	public static Block lantern;
 	public static Block NRCobble;
 	public static Block NRStone;
-	public static Block soulStone;
-	public static BlockSoulStairs soulStairs;
-	public static Block smoothSoulStone;
+	public static Block soulBricks;
+	public static BlockSoulBrickStairs soulBrickStairs;
+	public static Block smoothSoulSandstone;
+	public static Block soulSandstone;
 	
 	public static void init()
 	{
@@ -36,9 +38,10 @@ public class ModBlocks
 		lantern = new BlockLantern();
 		NRCobble = new BlockNRCobble();
 		NRStone = new BlockNRStone();
-		soulStone = new BlockSoulStone();
-		soulStairs = new BlockSoulStairs(soulStone.getDefaultState());
-		smoothSoulStone = new BlockSmoothSoulStone();
+		soulBricks = new BlockSoulBricks();
+		soulBrickStairs = new BlockSoulBrickStairs(soulBricks.getDefaultState());
+		smoothSoulSandstone = new BlockSmoothSoulSandstone();
+		soulSandstone = new BlockSoulSandstone();
 	}
 	
 	public static void register() 
@@ -48,9 +51,10 @@ public class ModBlocks
 		registerBlock(lantern);
 		registerBlock(NRCobble);
 		registerBlock(NRStone);
-		registerBlock(soulStone);
-		registerBlock(soulStairs);
-		registerBlock(smoothSoulStone);
+		registerBlock(soulBricks);
+		registerBlock(soulBrickStairs);
+		registerBlock(smoothSoulSandstone);
+		registerBlock(soulSandstone);
 	}
 	
 	public static void registerBlock(Block block) 
@@ -68,9 +72,10 @@ public class ModBlocks
 		registerRender(lantern);
 		registerRender(NRCobble);
 		registerRender(NRStone);
-		registerRender(soulStone);
-		registerRender(soulStairs);
-		registerRender(smoothSoulStone);
+		registerRender(soulBricks);
+		registerRender(soulBrickStairs);
+		registerRender(smoothSoulSandstone);
+		registerRender(soulSandstone);
 	}
 	
 	private static void registerRender(Block block) 

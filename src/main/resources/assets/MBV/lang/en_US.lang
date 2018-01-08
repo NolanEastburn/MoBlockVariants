@@ -11,6 +11,7 @@ item.OHoe.name=Obsidian Hoe
 item.OAxe.name=Obsidian Axe
 item.OChunk.name=Obsidian Chunk
 item.OIngot.name=Obsidian Ingot
+item.soulBrick.name=Soul Brick
 
 item.OHelmet.name=Obsidian Helmet
 item.OChestplate.name=Obsidian Chestplate
@@ -22,8 +23,8 @@ tile.smoothGlowstone.name=Smooth Glowstone
 tile.lantern.name=Lantern
 tile.NRCobble.name=Nether Cobblestone
 tile.NRStone.name=Nether Stone
-tile.soulStone.name=Soul Stone
-tile.soulStairs.name=Soul Stone Stairs
-tile.smoothSoulStone.name=Smooth Soul Stone
+tile.soulBricks.name=Soul Bricks
+tile.soulBrickStairs.name=Soul Brick Stairs
+tile.smoothSoulSandstone.name=Smooth Soul Sandstone
 
 itemGroup.tabMBV=Mo Block Variants

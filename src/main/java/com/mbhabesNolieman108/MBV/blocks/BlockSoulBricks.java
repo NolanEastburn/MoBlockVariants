@@ -7,13 +7,13 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class BlockSoulStone extends Block
+public class BlockSoulBricks extends Block
 {
-	public BlockSoulStone()
+	public BlockSoulBricks()
 	{
 		super(Material.ROCK);
-		setUnlocalizedName(reference.MBVBlocks.SOUL_STONE.getUnlocalizedName());
-		setRegistryName(reference.MBVBlocks.SOUL_STONE.getRegistryName());
+		setUnlocalizedName(reference.MBVBlocks.SOUL_BRICKS.getUnlocalizedName());
+		setRegistryName(reference.MBVBlocks.SOUL_BRICKS.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		this.setHardness(0.8F);
 		this.setResistance(4F);

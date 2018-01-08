@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "mbv:blocks/soulbricks",
+        "top": "mbv:blocks/soulbricks",
+        "side": "mbv:blocks/soulbricks"
+    }
+}
