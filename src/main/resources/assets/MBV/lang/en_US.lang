@@ -26,5 +26,6 @@ tile.NRStone.name=Nether Stone
 tile.soulBricks.name=Soul Bricks
 tile.soulBrickStairs.name=Soul Brick Stairs
 tile.smoothSoulSandstone.name=Smooth Soul Sandstone
+tile.soulSandstone.name=Soul Sandstone
 
 itemGroup.tabMBV=Mo Block Variants

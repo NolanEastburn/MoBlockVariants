@@ -35,13 +35,13 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.NRCobble, 8), "CCC", "CNC", "CCC", 'C', Blocks.COBBLESTONE, 'N', Blocks.NETHERRACK);
 		//SoulStone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBricks), "SS ", "SS ", "   ", 'S', ModItems.soulBrick);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBricks), "   ", "SS ", "S  ", 'S', ModItems.soulBrick);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBricks), "   ", "SS ", "SS ", 'S', ModItems.soulBrick);
 		//SoulStoneStairs
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBrickStairs, 4), "S  ", "SS ", "SSS", 'S', ModBlocks.soulBricks);
 	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulBrickStairs, 4), "  S", "  SS",  "SSS", 'S', ModBlocks.soulBricks);
 		//SmoothSoulStone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "SS ", "SS ", "   ", 'S', ModBlocks.soulSandstone);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "   ", "SS ", "S  ", 'S', ModBlocks.soulSandstone);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "   ", "SS ", "SS ", 'S', ModBlocks.soulSandstone);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
