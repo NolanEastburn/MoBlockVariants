@@ -42,6 +42,12 @@ public class ModCrafting
 		//SmoothSoulStone
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "SS ", "SS ", "   ", 'S', ModBlocks.soulSandstone);
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.smoothSoulSandstone, 4), "   ", "SS ", "SS ", 'S', ModBlocks.soulSandstone);
+		//SoulSandstone
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulSandstone), "SS ", "SS ", "   ", 'S', Blocks.SOUL_SAND);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.soulSandstone), "   ", "SS ", "SS ", 'S', Blocks.SOUL_SAND);
+		//ObsidianStairs
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "O  ", "OO ", "OOO", 'O', Blocks.OBSIDIAN);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "  O", "  OO", "OOO", 'O', Blocks.OBSIDIAN);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));

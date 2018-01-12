@@ -61,7 +61,8 @@ public class reference
 		SOUL_BRICKS("soulBricks", "BlockSoulBricks"),
 		SOUL_BRICK_STAIRS("soulBrickStairs", "BlockSoulBrickStairs"),
 		SMOOTH_SOUL_SANDSTONE("smoothSoulSandstone", "BlockSmoothSoulSandstone"),
-		SOUL_SANDSTONE("soulSandstone", "BlockSoulSandstone");
+		SOUL_SANDSTONE("soulSandstone", "BlockSoulSandstone"),
+		OB_STAIRS("OBStairs", "BlockOBStairs");
 		
 		private String unlocalizedName;
 		private String registryName;
