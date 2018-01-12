@@ -28,5 +28,6 @@ tile.soulBrickStairs.name=Soul Brick Stairs
 tile.smoothSoulSandstone.name=Smooth Soul Sandstone
 tile.soulSandstone.name=Soul Sandstone
 tile.OBStairs.name=Obsidian Stairs
+tile.diamondStairs.name=Diamond Block Stairs
 
 itemGroup.tabMBV=Mo Block Variants

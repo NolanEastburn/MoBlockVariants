@@ -48,6 +48,9 @@ public class ModCrafting
 		//ObsidianStairs
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "O  ", "OO ", "OOO", 'O', Blocks.OBSIDIAN);
 	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "  O", "  OO", "OOO", 'O', Blocks.OBSIDIAN);
+	    //DiamondStairs
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs, 4), "D  ", "DD ", "DDD", 'D', Blocks.DIAMOND_BLOCK);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs, 4), "  D", "  DD", "DDD", 'D', Blocks.DIAMOND_BLOCK);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));

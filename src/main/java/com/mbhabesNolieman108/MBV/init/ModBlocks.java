@@ -1,6 +1,7 @@
 package com.mbhabesNolieman108.MBV.init;
 
 
+import com.mbhabesNolieman108.MBV.blocks.BlockDiamondStairs;
 import com.mbhabesNolieman108.MBV.blocks.BlockLantern;
 import com.mbhabesNolieman108.MBV.blocks.BlockNRCobble;
 import com.mbhabesNolieman108.MBV.blocks.BlockNRStone;
@@ -33,6 +34,7 @@ public class ModBlocks
 	public static Block smoothSoulSandstone;
 	public static Block soulSandstone;
 	public static BlockOBStairs OBStairs;
+	public static BlockDiamondStairs diamondStairs;
 	
 	public static void init()
 	{
@@ -46,6 +48,7 @@ public class ModBlocks
 		smoothSoulSandstone = new BlockSmoothSoulSandstone();
 		soulSandstone = new BlockSoulSandstone();
 		OBStairs = new BlockOBStairs(Blocks.OBSIDIAN.getDefaultState());
+		diamondStairs = new BlockDiamondStairs(Blocks.DIAMOND_BLOCK.getDefaultState());
 	}
 	
 	public static void register() 
@@ -60,6 +63,7 @@ public class ModBlocks
 		registerBlock(smoothSoulSandstone);
 		registerBlock(soulSandstone);
 		registerBlock(OBStairs);
+		registerBlock(diamondStairs);
 	}
 	
 	public static void registerBlock(Block block) 
@@ -82,6 +86,7 @@ public class ModBlocks
 		registerRender(smoothSoulSandstone);
 		registerRender(soulSandstone);
 		registerRender(OBStairs);
+		registerRender(diamondStairs);
 	}
 	
 	private static void registerRender(Block block) 
