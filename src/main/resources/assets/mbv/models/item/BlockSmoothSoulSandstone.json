@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_column",
     "textures": {
-        "all": "mbv:blocks/smoothsoulsandstone"
+        "end": "mbv:blocks/smoothsoulsandstone_top",
+        "side": "mbv:blocks/smoothsoulsandstone"
     }
 }
