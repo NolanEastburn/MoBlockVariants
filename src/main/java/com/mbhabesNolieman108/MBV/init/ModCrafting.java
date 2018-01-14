@@ -49,8 +49,8 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "O  ", "OO ", "OOO", 'O', Blocks.OBSIDIAN);
 	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.OBStairs, 4), "  O", "  OO", "OOO", 'O', Blocks.OBSIDIAN);
 	    //DiamondStairs
-	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs, 4), "D  ", "DD ", "DDD", 'D', Blocks.DIAMOND_BLOCK);
-	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs, 4), "  D", "  DD", "DDD", 'D', Blocks.DIAMOND_BLOCK);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs), "D  ", "DD ", "DDD", 'D', Items.DIAMOND);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs), "  D", "  DD", "DDD", 'D', Items.DIAMOND);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));
@@ -62,6 +62,8 @@ public class ModCrafting
 		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OHelmet), "OOO", "O O",  "   ", 'O',ModItems.OIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OLeggings), "OOO", "O O",  "O O", 'O',ModItems.OIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModArmor.OChestplate), "O O", "OOO",  "OOO", 'O',ModItems.OIngot);
+		//Extra
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.NETHER_WART, 9), Blocks.NETHER_WART_BLOCK);
 		
 		
 		
