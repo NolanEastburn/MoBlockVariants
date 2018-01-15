@@ -22,6 +22,7 @@ public class BlockNRStone extends Block
 		setRegistryName(reference.MBVBlocks.NR_STONE.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		setHardness(0.8F);
+		this.setResistance(30F);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("pickaxe", 0);
 		

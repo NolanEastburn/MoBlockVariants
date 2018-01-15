@@ -16,7 +16,7 @@ public class BlockSoulBricks extends Block
 		setRegistryName(reference.MBVBlocks.SOUL_BRICKS.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		this.setHardness(0.8F);
-		this.setResistance(4F);
+		this.setResistance(30F);
 		this.setSoundType(SoundType.STONE);
 		this.setHarvestLevel("pickaxe", 0);
 	}

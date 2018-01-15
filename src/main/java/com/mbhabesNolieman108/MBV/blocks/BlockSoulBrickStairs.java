@@ -17,7 +17,7 @@ public class BlockSoulBrickStairs extends BlockStairs
 		setRegistryName(reference.MBVBlocks.SOUL_BRICK_STAIRS.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		this.setHardness(0.8F);
-		this.setResistance(4F);
+		this.setResistance(30F);
 		this.setHarvestLevel("pickaxe", 0);
 		this.setSoundType(SoundType.STONE);
 		this.useNeighborBrightness = true;

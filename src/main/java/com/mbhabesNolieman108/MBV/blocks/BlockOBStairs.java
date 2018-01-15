@@ -17,6 +17,7 @@ public class BlockOBStairs extends BlockStairs
 		setRegistryName(reference.MBVBlocks.OB_STAIRS.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		this.setHardness(50F);
+		this.setResistance(6000F);
 		this.setHarvestLevel("pickaxe", 3);
 		this.setSoundType(SoundType.STONE);
 		this.useNeighborBrightness = true;

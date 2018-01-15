@@ -16,6 +16,7 @@ public class BlockNRCobble extends Block
 		setRegistryName(reference.MBVBlocks.NR_COBBLE.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		setHardness(1.2F);
+		this.setResistance(30F);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("pickaxe", 0);
 	}

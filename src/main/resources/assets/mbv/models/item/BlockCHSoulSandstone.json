@@ -2,6 +2,6 @@
     "parent": "block/cube_column",
     "textures": {
         "end": "mbv:blocks/smoothsoulsandstone_top",
-        "side": "mbv:blocks/ChiseledSoulSandstone"
+        "side": "mbv:blocks/CHSoulSandstone"
     }
 }

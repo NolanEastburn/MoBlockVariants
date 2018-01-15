@@ -16,6 +16,7 @@ public class BlockSmoothOB extends Block
 		setRegistryName(reference.MBVBlocks.SMOOTH_OB.getRegistryName());
 		setCreativeTab(MoBlockVariants.CREATIVE_TAB);
 		setHardness(25.0F);
+		this.setResistance(3000F);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("pickaxe", 2);
 		

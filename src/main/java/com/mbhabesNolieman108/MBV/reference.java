@@ -63,7 +63,8 @@ public class reference
 		SMOOTH_SOUL_SANDSTONE("smoothSoulSandstone", "BlockSmoothSoulSandstone"),
 		SOUL_SANDSTONE("soulSandstone", "BlockSoulSandstone"),
 		OB_STAIRS("OBStairs", "BlockOBStairs"),
-		DIAMOND_STAIRS("diamondStairs", "BlockDiamondStairs");
+		DIAMOND_STAIRS("diamondStairs", "BlockDiamondStairs"),
+		CH_SOUL_SANDSTONE("CHSoulSandstone", "BlockCHSoulSandstone");
 		
 		private String unlocalizedName;
 		private String registryName;

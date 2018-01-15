@@ -51,6 +51,11 @@ public class ModCrafting
 	    //DiamondStairs
 	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs), "D  ", "DD ", "DDD", 'D', Items.DIAMOND);
 	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.diamondStairs), "  D", "  DD", "DDD", 'D', Items.DIAMOND);
+	    //CHSoulSandstone
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CHSoulSandstone), "S  ", "S  ", "   ", 'S', ModBlocks.soulSandstone);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CHSoulSandstone), "   ", "S  ", "S  ", 'S', ModBlocks.soulSandstone);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CHSoulSandstone), " S ", " S ", "   ", 'S', ModBlocks.soulSandstone);
+	    GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.CHSoulSandstone), "   ", " S ", " S ", 'S', ModBlocks.soulSandstone);
 		//Items
 		//Obsidian Ingots
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.OChunk),new ItemStack(Blocks.OBSIDIAN));

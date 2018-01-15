@@ -29,5 +29,6 @@ tile.smoothSoulSandstone.name=Smooth Soul Sandstone
 tile.soulSandstone.name=Soul Sandstone
 tile.OBStairs.name=Obsidian Stairs
 tile.diamondStairs.name=Diamond Block Stairs
+tile.CHSoulSandstone.name=Chiesled Soul Sandstone
 
 itemGroup.tabMBV=Mo Block Variants
